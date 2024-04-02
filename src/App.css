@@ -1,13 +1,30 @@
-.App {
+body {
+  background-image: url("https://i.pinimg.com/originals/ac/54/a1/ac54a128942c750799c2c1fe144d2467.jpg");
+  background-size: cover;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.centre-container {
+  height: 500px;
+  width: 400px;
+  background-color: rgb(102, 169, 91);
   text-align: center;
+  margin-left:800px;
+  border-radius:30px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.list-item {
+  border-radius: 30px;
+  color: rgb(58, 45, 241);
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
@@ -35,4 +52,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
